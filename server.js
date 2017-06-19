@@ -18,8 +18,8 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Configure to mongoDB
-mongoose.connect("mongodb://localhost/portfolio");
-var db = mongoose.connection;
+// mongoose.connect("mongodb://localhost/portfolio");
+// var db = mongoose.connection;
 
 // Routes
 var about = require('./controllers/about_controller');
